@@ -251,3 +251,26 @@ text-align: left;
     border: none;
   }
 }
+.coin-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.coin-list-item{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.coin-list-title{
+  font-size: 2rem;
+}
